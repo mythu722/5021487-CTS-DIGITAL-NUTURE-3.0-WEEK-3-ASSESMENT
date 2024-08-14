@@ -1,0 +1,2 @@
+List<Employee> findByNameContaining(String name);
+List<Employee> findByDepartmentId(Long departmentId);
