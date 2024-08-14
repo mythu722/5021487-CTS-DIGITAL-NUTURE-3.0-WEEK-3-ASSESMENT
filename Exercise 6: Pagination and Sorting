@@ -1,0 +1,4 @@
+@GetMapping("/page")
+public Page<Employee> getEmployeesWithPagination(Pageable pageable) {
+    return employeeRepository.findAll(pageable);
+}
